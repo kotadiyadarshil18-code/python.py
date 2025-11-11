@@ -18,7 +18,7 @@ print("Reversed name",reversed_text)
 if(text == reversed_text):
     print("Name is Palindrome ")
 else:
-    print("Name is not palindrome")
+    print("Name is not palindromeee")
 
 # Q4
 
