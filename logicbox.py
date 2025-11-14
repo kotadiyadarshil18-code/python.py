@@ -13,7 +13,7 @@ while True:
 
     elif choice == 2:
         start_num=int(input("Enter the number from where you want to start:"))
-        end_num=int(input("Enter the number where you want end"))
+        end_num=int(input("Enter the number from  where you want end"))
         total=0
 
         for n in range(start_num,end_num + 1):

@@ -20,7 +20,7 @@ print("Tuple is a list which can be not change after create")
 
 print()
 
-#Q3
+#Q3q
 
 my_list1=[1,2,3]
 my_tuple=(1,2,3)

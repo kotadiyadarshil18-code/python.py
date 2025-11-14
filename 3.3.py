@@ -53,3 +53,7 @@ for i in range(1,51):
         print("Divisible by 3",{i})
     else:
         print(i)
+
+
+
+        list=[  ]
