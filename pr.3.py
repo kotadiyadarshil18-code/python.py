@@ -1,3 +1,4 @@
+
 print("Welcome to the student Data Organizer! ")
 
 students = []
@@ -25,6 +26,7 @@ while True:
         students.append(student)
 
         print("Student added successfully!")
+
 
     
     elif choice == 2:
@@ -85,3 +87,8 @@ while True:
 
     else:
         print("Invalid choice. Try again!")
+
+print("Welcome to the student Data Organizer! ")
+
+students = []
+
