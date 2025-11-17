@@ -18,6 +18,8 @@ print("Average =", avg_score)
 
 # Q3
 students.append({"id": 104, "name": "David", "score": 88})
+for s in students:
+    print(s["name"])
 
 # Q4
 for s in students:
@@ -49,10 +51,32 @@ print("Top student:", top_student)
 
 # Q9 
 score = top_student["score"]
+name = top_student["name"]
 
 if score >= 90:
-    print("A")
+    grade = "A"
 elif score >= 80:
-    print("B")
+    grade = "B"
 else:
-    print("C")
+    grade = "C"
+
+print("Name:", name, "| Score:", score, "| Grade:", grade)
+
+#Q10
+students = [("Alice", 85), ("Bob", 92), ("Charlie", 78), ("Diana", 88)]
+
+a = 0
+b = 0
+c = 0
+
+for name, score in students:
+    if score >= 90:
+        a += 1
+    elif score >= 80:
+        b += 1
+    else:
+        c += 1
+
+print("A:", a)
+print("B:", b)
+print("C:", c)
