@@ -16,47 +16,43 @@ for _ in students:
 avg_score = sum(s["score"] for s in students) / count
 print("Average =", avg_score)
 
-# Q3 
+# Q3
 students.append({"id": 104, "name": "David", "score": 88})
 
-# Q4 
+# Q4
 for s in students:
     if s["id"] == 102:
         s["score"] = 88
 
-# Q5 
+# Q5 - 
 students = [s for s in students if s["id"] != 103]
 
 print(students)
 
-#Q6
-
+# Q6 
 for s in students:
-    if s["score"]>80:
+    if s["score"] > 80:
         print(s["name"])
 
-#Q7
+# Q7
+def get_score(student):
+    return student["score"]
 
-def get_score(students):
-    return students["score"]
+sorted_students = sorted(students, key=get_score, reverse=True)
 
-sorted_student=sorted(students,key=get_score,reverse=True)
+for s in sorted_students:
+    print(s["name"], s["score"])
 
-for s in sorted_student:
-    print(s["name"],s["score"])
-
-#Q8
-
-top_student = sorted_student[0]
+# Q8 
+top_student = sorted_students[0]
 print("Top student:", top_student)
 
-#Q9
+# Q9 
+score = top_student["score"]
 
-if students >= 90:
+if score >= 90:
     print("A")
-
-elif students >= 80:
+elif score >= 80:
     print("B")
 else:
     print("C")
-     
