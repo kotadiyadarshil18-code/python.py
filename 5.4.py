@@ -10,7 +10,7 @@ for s in students:
 
 # Q2 
 count = 0
-for _ in students:
+for s in students:
     count += 1
 
 avg_score = sum(s["score"] for s in students) / count
