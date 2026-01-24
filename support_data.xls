@@ -1,0 +1,10 @@
+Ticket_Id,Created_Date,Region,City,Issue_Category,Priority,Resolution_Time_Hours,Customer_Type,Satisfaction_Score
+500000,2022-07-27,,Pune,Billing,Medium,36,Existing,5
+500001,2024-04-04,,Chennai,,Medium,10,Existing,2
+500002,2024-02-12,Central,Ahmedabad,Network,High,41,New,2
+500003,2022-02-18,Central,Bengaluru,Service,Low,206,New,4
+500004,2023-01-04,Central,Chennai,Hardware,Critical,31,Existing,5
+500005,2022-05-01,West,Ahmedabad,Billing,Low,175,New,4
+500006,2023-02-24,,Kolkata,Billing,Low,17,Existing,3
+500007,2023-12-02,North,Mumbai,,Medium,87,Existing,3
+500008,2023-09-03,,Kolkata,Network,High,223,New,3
